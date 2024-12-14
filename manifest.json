@@ -1,0 +1,14 @@
+{
+    "domain": "light_state_restoration",
+    "name": "Light State Restoration",
+    "version": "1.0.0",
+    "documentation": "https://github.com/yourusername/light_state_restoration",
+    "dependencies": [
+        "json_storage",
+        "light_state_management"
+    ],
+    "requirements": [],
+    "codeowners": [],
+    "config_flow": true,
+    "iot_class": "local_push"
+}

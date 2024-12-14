@@ -1,0 +1,59 @@
+# Home Assistant files
+.storage
+.cloud
+.google.token
+.uuid
+.HA_VERSION
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Log files
+*.log
+home-assistant.log.*
+home-assistant_v2.db.*
+
+# Temporary files
+*.py[cod]
+*.so
+*.swp
+*~
+._*
+__pycache__
+.DS_Store
+
+# Configuration files that may contain sensitive information
+secrets.yaml
+known_devices.yaml
+ip_bans.yaml
+
+# Add-on files
+.addons
+.storage
+.cloud
+
+# Custom component cache
+custom_components/
+# Environment files
+.env
+.venv
+venv/
+ENV/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.tar
+*.gz
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+.bash_history
+.zsh_history
